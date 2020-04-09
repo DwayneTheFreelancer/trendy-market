@@ -43,7 +43,7 @@ Welcome to Trendy Market, an app that lets users sign up to an account, post new
 ## Wireframe
 
 ​
-![Wireframe Photo](add image url)
+![Wireframe Photo](https://i.imgur.com/IMMCvEU.png)
 ​
 
 ## Entity Realational Diagram (ERD)
