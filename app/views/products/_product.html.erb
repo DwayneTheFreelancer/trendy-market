@@ -1,0 +1,22 @@
+<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
+    <div class="card">
+        <img
+            class="card-img-top img-fluid"
+            src="jumbotron-bg.jpg"
+            alt="Card image cap"
+            height="100px"
+            width="140px"
+        />
+        <div class="card-body">
+            <h5 class="card-title">
+            <span class="badge badge-pill badge-purple float-right"
+                ><%= number_to_currency(product[:price]) %></span
+            >
+            <%= link_to product[:name], product_path(product.id) %>
+            </h5>
+            <p class="card-text">
+            <%= truncate(product[:description], length: 150) %>
+            </p>
+        </div>
+    </div>
+</div>
